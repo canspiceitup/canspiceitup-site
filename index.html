@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CanSpiceItUp | Food & Travel Reels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #ff5e57;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .intro {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    .intro iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .section-card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #fff3e0;
+      padding: 2rem;
+      text-align: center;
+    }
+    .cta-buttons {
+      margin-bottom: 1.5rem;
+    }
+    .map-link, .signup-link {
+      display: inline-flex;
+      align-items: center;
+      margin: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background-color: #ff5e57;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .map-link:hover, .signup-link:hover {
+      background-color: #e65150;
+    }
+    .signup-link svg {
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CanSpiceItUp</h1>
+    <p>Spicing up your feed with food, travel, deals & local finds 🍽✈️</p>
+  </header>
+
+  <section class="intro">
+    <h2>Welcome!</h2>
+    <p>We’re a Toronto-based family sharing food and travel adventures through short, fun reels. Discover new restaurants, local events, and hidden gems across Canada and beyond!</p>
+    <iframe src="https://www.instagram.com/reel/COOLREEL/embed" allowfullscreen></iframe>
+  </section>
+
+  <section class="sections">
+    <div class="section-card">
+      <h3>🔥 Hot Picks</h3>
+      <p>Must-try spots and trending locations from our latest reels.</p>
+    </div>
+    <div class="section-card">
+      <h3>🍽 New Restaurants</h3>
+      <p>Fresh openings in Toronto and wherever we travel—scroll through our faves!</p>
+    </div>
+    <div class="section-card">
+      <h3>🎉 Local Events</h3>
+      <p>Family-friendly, seasonal, or cultural—see what’s happening near you!</p>
+    </div>
+    <div class="section-card">
+      <h3>✈️ Travel Reels</h3>
+      <p>Weekend getaways and destination eats, all captured on the go.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="cta-buttons">
+      <a href="/map" class="map-link">🗺 View Map</a>
+      <a href="/signup" class="signup-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 24c1.104 0 2-.896 2-2h-4c0 1.104.896 2 2 2zm6.707-6.293l1.293 1.293-1.414 1.414-1.293-1.293c-1.063.616-2.303.979-3.593.979s-2.53-.363-3.593-.979l-1.293 1.293-1.414-1.414 1.293-1.293c-.616-1.063-.979-2.303-.979-3.593s.363-2.53.979-3.593l-1.293-1.293 1.414-1.414 1.293 1.293c1.063-.616 2.303-.979 3.593-.979s2.53.363 3.593.979l1.293-1.293 1.414 1.414-1.293 1.293c.616 1.063.979 2.303.979 3.593s-.363 2.53-.979 3.593z"/>
+        </svg>
+        Get Notified
+      </a>
+    </div>
+    <p>© 2025 CanSpiceItUp | Made with ❤️ in Toronto</p>
+  </footer>
+</body>
+</html>
